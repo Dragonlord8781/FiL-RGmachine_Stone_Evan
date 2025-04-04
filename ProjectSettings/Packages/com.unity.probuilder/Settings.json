@@ -104,7 +104,7 @@
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize.Arch",
-                "value": "{\"m_Value\":{\"x\":4.576438903808594,\"y\":4.0575408935546879,\"z\":0.7715094089508057}}"
+                "value": "{\"m_Value\":{\"x\":-0.917694091796875,\"y\":1.659881591796875,\"z\":0.09921455383300781}}"
             },
             {
                 "type": "UnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -119,6 +119,11 @@
             {
                 "type": "UnityEngine.ProBuilder.PivotLocation, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.PivotLocation.Arch",
+                "value": "{\"m_Value\":0}"
+            },
+            {
+                "type": "UnityEngine.ProBuilder.PivotLocation, Unity.ProBuilder, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "key": "ShapeBuilder.PivotLocation.Cube",
                 "value": "{\"m_Value\":0}"
             },
             {
