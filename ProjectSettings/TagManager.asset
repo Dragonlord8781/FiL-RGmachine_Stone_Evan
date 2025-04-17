@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Sphere
   - Forge
+  - Grass
   layers:
   - Default
   - TransparentFX
