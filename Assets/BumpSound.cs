@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 public class BumpSound : MonoBehaviour
 {
-    [SerializeField] AudioClip grass;
-    [SerializeField] AudioClip stone;
-    [SerializeField] AudioClip wood;
+    [SerializeField] AudioClip Grass;
+    [SerializeField] AudioClip Stone;
+    [SerializeField] AudioClip Wood;
     AudioSource audio;
     void Start()
     {
@@ -15,15 +15,15 @@ public class BumpSound : MonoBehaviour
     {
         if (collision.gameObject.tag == "Grass")
         {
-            audio.PlayOneShot(grass);
+            audio.PlayOneShot(Grass);
         }
         if (collision.gameObject.tag == "Wood")
         {
-            audio.PlayOneShot(wood);
+            audio.PlayOneShot(Wood);
         }
-        if (collision.gameObject.tag == "stone")
+        if (collision.gameObject.tag == "Stone")
         {
-            audio.PlayOneShot(stone);
+            audio.PlayOneShot(Stone);
         }
     }
 }
